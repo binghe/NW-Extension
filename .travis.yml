@@ -11,4 +11,4 @@ scala: 2.9.2
 install:
   - sbt update
 script:
-  - sbt test
+  - sbt package
